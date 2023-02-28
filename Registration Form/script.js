@@ -1,22 +1,4 @@
-// const form = document.getElementById('registration-form');
-// const submit = document.getElementById('submit');
 
-// submit.addEventListener('click', (event) => {
-//   event.preventDefault(); // Prevent default form submission
-  
-//   const name = document.getElementById('name').value;
-//   const email = document.getElementById('email').value;
-  
-//   const output = document.createElement('p');
-//   output.innerHTML = `Name: ${name}<br>Email: ${email}`;
-  
-//   form.appendChild(output);
-
-//profile_pic:'',
-//info.profile_pic= document.getElementById('profile_pic').value;
-
-
-// })
 
 let submit = document.getElementById("submit");
 
@@ -107,19 +89,3 @@ submit.addEventListener(('click'), () => {
     showData();
 })
 
-// const profilePic = document.getElementById('profile-pic');
-// const preview = document.getElementById('preview');
-
-// profilePic.addEventListener('change', function() {
-//    const file = this.files[0];
-//    if (file) {
-//       const reader = new FileReader();
-//       reader.addEventListener('load', function() {
-//          preview.setAttribute('src', this.result);
-//       });
-//       reader.readAsDataURL(file);
-//    }
-// });
-
-//const myImage = document.getElementById("myImage");
-// myImage.setAttribute("src", "newimage.jpg");
